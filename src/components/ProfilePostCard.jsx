@@ -15,7 +15,7 @@ export default function ProfilePostCard({ post }) {
 
     const isLiked = likes.includes(userId);
 
-    const pic = "https://pbs.twimg.com/profile_images/1331475974228086785/Xaf2U-gq_400x400.jpg";
+    const pic = "https://pbs.twimg.com/profile_images/1586833249304604673/75XlIHvx_400x400.jpg";
 
     const [showUpdateModal, setShowUpdateModal] = useState(false);
 
@@ -51,8 +51,8 @@ export default function ProfilePostCard({ post }) {
             </Col>
 
             <Col>
-                <strong>Sia</strong>
-                <span> @digitalkai - Mar 14</span>
+                <strong>Anon</strong>
+                <span> @tester - Mar 24</span>
                 <p>{content}</p>
                 <Image src={imageUrl} style={{ width: 150 }} />
                 <div className="d-flex justify-content-between">

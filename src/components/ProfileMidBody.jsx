@@ -7,8 +7,8 @@ import { fetchPostsByUser } from "../features/posts/postsSlice";
 
 export default function ProfileMidBody() {
 
-    const url = "https://pbs.twimg.com/profile_banners/156044998/1508638679/1500x500";
-    const pic = "https://pbs.twimg.com/profile_images/1331475974228086785/Xaf2U-gq_400x400.jpg";
+    const url = "https://pbs.twimg.com/profile_banners/1586826970238947330/1667165693/1500x500";
+    const pic = "https://pbs.twimg.com/profile_images/1586833249304604673/75XlIHvx_400x400.jpg";
 
     const dispatch = useDispatch();
     const posts = useSelector((state) => state.posts.posts);
@@ -44,13 +44,13 @@ export default function ProfileMidBody() {
             </Row>
 
             <p className="mt-5" style={{ margin: 0, fontWeight: "bold", fontSize: "15px" }}>
-                Sia
+                Anon
             </p>
 
-            <p style={{ marginBottom: "2px" }}>@digitalkai</p>
+            <p style={{ marginBottom: "2px" }}>@tester</p>
 
-            <p>I shitpost</p>
-            <p>Investor</p>
+            <p>I test stuff</p>
+            <p>Testing is fun!</p>
             <p>
                 <strong>69</strong> Following <strong>420</strong> Followers
             </p>
